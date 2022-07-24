@@ -1,0 +1,74 @@
+h5{
+    font-family: Roboto-Regular;
+    text-align: center;
+    color: #ffffff;
+
+}   
+
+p{
+    font-family: Roboto-Regular;
+    text-align: justify ;
+    color: #ffffff;
+}
+
+b{    
+    color: #B5B5B5;
+    font-family: Chiller;
+    font-size: xx-large;   
+}    
+    
+h6{
+    padding-top: 2%;
+}
+body{
+    background-color: #262626;
+}
+
+
+#albuns{
+    background-color: #222e35
+} 
+
+#video{
+    width: 750px;
+    margin:0 auto;
+    display: block;
+    background-color: #262626
+}
+
+#footer{
+    color: white;   
+    text-align:center !important;
+
+    background-color: #222e35 !important;       
+} 
+
+.icon{
+   color: white;
+   padding: 0.5%;
+   
+}
+
+.icon:hover{
+    color: gray;
+ 
+}
+
+.btn-warning{
+    align-items: center;
+    background-color: white;
+    border-color: gray;
+    font ;
+
+}
+.btn-warning:hover{
+    align-items: center;
+    background-color: gray;
+    border-color: #000000;
+
+}
+
+.card{
+    background-color:  #3d4f5a;
+    
+}
