@@ -1,8 +1,24 @@
+/*ajusta a responsividade do video*/
+@media (max-width: 500px){
+    #video{
+        width:auto;
+        height:auto;
+    }
+}
+/*importa fontes externas*/
+@font-face {
+            font-family: Chiller;
+            src: url(Chiller.TTF);
+            
+            font-family: Roboto-Regular;
+            src: url(Roboto-Regular.TTF);
+}
+
+
 h5{
     font-family: Roboto-Regular;
     text-align: center;
     color: #ffffff;
-
 }   
 
 p{
@@ -20,21 +36,54 @@ b{
 h6{
     padding-top: 2%;
 }
+
 body{
     background-color: #262626;
 }
-
 
 #albuns{
     background-color: #222e35
 } 
 
 #video{
-    width: 750px;
+    width:748px;
+    height:561px;
     margin:0 auto;
     display: block;
     background-color: #262626
 }
+
+.card{
+    background-color:  #3d4f5a;
+    
+}
+
+.text-end{
+      padding-right:35%;
+      font-family: Arial, Helvetica, sans-serif ;
+      font-weight: bolder  ;
+}
+
+.text-center{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bolder  ;
+}
+
+
+.btn{
+    align-items: center;
+    background-color: white;
+    border-color: gray;
+    
+
+}
+.btn:hover{
+    align-items: center;
+    background-color: gray;
+    border-color: #000000;
+
+}
+
 
 #footer{
     color: white;   
@@ -52,23 +101,4 @@ body{
 .icon:hover{
     color: gray;
  
-}
-
-.btn-warning{
-    align-items: center;
-    background-color: white;
-    border-color: gray;
-    font ;
-
-}
-.btn-warning:hover{
-    align-items: center;
-    background-color: gray;
-    border-color: #000000;
-
-}
-
-.card{
-    background-color:  #3d4f5a;
-    
 }
